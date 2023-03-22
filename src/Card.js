@@ -8,6 +8,9 @@ const style = {
   backgroundColor: 'white',
   cursor: 'move',
 }
+
+//nothing useful at all
+
 export const Card = ({ id, text, index, moveCard }) => {
   const ref = useRef(null)
   const [{ handlerId }, drop] = useDrop({
